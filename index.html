@@ -1,382 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SCROLL REVEAL -->
-    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <script src="/assets/js/main.js"></script>
-  </body>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- SCROLL REVEAL -->
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <script src="/assets/js/main.js"></script>
+</body>
+
 </html>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Box icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
 
-    <!-- DEV ICONS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
-    />
+  <!-- Box icons -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
+  <!-- DEV ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css" />
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo"><span>
+            << /span>Sourav<span>/></span></a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!-- HOME -->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          Hi,<br />I am <span class="home__title-color">Sourav</span><br />
+          Web Developer
+        </h1>
+
+        <a href="#contact" class="button">Contact</a>
+      </div>
+
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/souravdutta2108/" class="home__social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/souravdutta2108" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        <a href="https://twitter.com/souravdutta2108" class="home__social-icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+
+      <div class="home__img">
+        <img src="assets/img/home_image.svg" alt="" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/about.svg" alt="about" />
+        </div>
+
         <div>
-          <a href="#" class="nav__logo"><span><</span>Satyaki<span>/></span></a>
+          <h2 class="about__subtitle">I'm Sourav</h2>
+          <p class="about__text">
+            Software Engineer who loves to transform ideas into reality using
+            code. I am passionate about JavaScript to create awesome user
+            experiences. Motivated designer and developer with experience
+            creating custom websites with ReactJS, Javascript, HTML5, CSS3 and
+            NodeJS. Strong collaboration skills and proven history application
+            development.
+          </p>
         </div>
+      </div>
+    </section>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#work" class="nav__link">Work</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <section class="skills__Section" id="skills">
+      <h2 class="section-title">Skills</h2>
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="l-main">
-      <!-- HOME -->
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-          <h1 class="home__title">
-            Hi,<br />I am <span class="home__title-color">Satyaki</span><br />
-            Web Developer
-          </h1>
-
-          <a href="#contact" class="button">Contact</a>
-        </div>
-
-        <div class="home__social">
-          <a
-            href="https://www.linkedin.com/in/satyaki07/"
-            class="home__social-icon"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://github.com/satyaki07" class="home__social-icon"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://twitter.com/satyaki_07" class="home__social-icon"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-        </div>
-
-        <div class="home__img">
-          <img src="assets/img/home_image.svg" alt="" />
-        </div>
-      </section>
-
-      <!-- ABOUT -->
-      <section class="section about" id="about">
-        <h2 class="section-title">About</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/about.svg" alt="about" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle">I'm Satyaki</h2>
-            <p class="about__text">
-              Software Engineer who loves to transform ideas into reality using
-              code. I am passionate about JavaScript to create awesome user
-              experiences. Motivated designer and developer with experience
-              creating custom websites with ReactJS, Javascript, HTML5, CSS3 and
-              NodeJS. Strong collaboration skills and proven history application
-              development.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="skills__Section" id="skills">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills__container bd-grid">
-          <div>
-            <!-- <h2 class="skills__subtitle">Professional Skills</h2> -->
-            <!-- <p class="skills__text">
+      <div class="skills__container bd-grid">
+        <div>
+          <!-- <h2 class="skills__subtitle">Professional Skills</h2> -->
+          <!-- <p class="skills__text">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Assumenda perferendis necessitatibus quam maiores ducimus. Porro
               cupiditate minus sapiente reprehenderit fuga culpa provident nemo
               neque voluptate!
             </p> -->
 
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="devicon-html5-plain-wordmark skills__icon"></i>
-                <span class="skills__name">HTML5</span>
-              </div>
-
-              <div>
-                <span class="skills__percentage">95%</span>
-              </div>
-              <div class="skills__bar skills__html"></div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="devicon-html5-plain-wordmark skills__icon"></i>
+              <span class="skills__name">HTML5</span>
             </div>
 
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="devicon-css3-plain-wordmark skills__icon"></i>
-                <!-- <img class="css__image" src="assets//img/css3.svg" /> -->
-                <span class="skills__name">CSS3</span>
-              </div>
-
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
+            <div>
+              <span class="skills__percentage">95%</span>
             </div>
-
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="devicon-javascript-plain skills__icon"></i>
-                <span class="skills__name">JavaScript</span>
-              </div>
-
-              <div>
-                <span class="skills__percentage">80%</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="devicon-react-original skills__icon"></i>
-                <span class="skills__name">React</span>
-              </div>
-
-              <div>
-                <span class="skills__percentage">75%</span>
-              </div>
-              <div class="skills__bar skills__react"></div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="devicon-nodejs-plain-wordmark skills__icon"></i>
-                <span class="skills__name">NodeJS</span>
-              </div>
-
-              <div>
-                <span class="skills__percentage">65%</span>
-              </div>
-              <div class="skills__bar skills__node"></div>
-            </div>
+            <div class="skills__bar skills__html"></div>
           </div>
-          <img
-            src="assets/img/work-1.jpg"
-            alt="skills img"
-            class="skills__img"
-          />
-        </div>
-      </section>
 
-      <!-- WORK -->
-      <section class="work section" id="work">
-        <h2 class="section-title">Work</h2>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="devicon-css3-plain-wordmark skills__icon"></i>
+              <!-- <img class="css__image" src="assets//img/css3.svg" /> -->
+              <span class="skills__name">CSS3</span>
+            </div>
 
-        <div class="work__container bd-grid">
-          <div class="work-project">
-            <div class="work__img">
-              <img src="assets/img/project-1.png" alt="project-1" />
+            <div>
+              <span class="skills__percentage">85%</span>
             </div>
-            <div class="work-tab">
-              <h1>Trillo</h1>
+            <div class="skills__bar skills__css"></div>
+          </div>
 
-              <p class="techno_text">HTML5, SCSS, Flexbox, JavaScript</p>
-              <a href="https://satyaki07.github.io/Trillo/" class="live-project"
-                >View live</a
-              >
-              <a href="https://github.com/satyaki07/Trillo" class="live-project"
-                >Source Code</a
-              >
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="devicon-javascript-plain skills__icon"></i>
+              <span class="skills__name">JavaScript</span>
             </div>
+
+            <div>
+              <span class="skills__percentage">80%</span>
+            </div>
+            <div class="skills__bar skills__js"></div>
           </div>
-          <div class="work-project">
-            <div class="work__img">
-              <img src="assets/img/project-2.png" alt="project-2" />
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="devicon-react-original skills__icon"></i>
+              <span class="skills__name">React</span>
             </div>
-            <div class="work-tab">
-              <h1>Natours</h1>
-              <p class="techno_text">HTML5, SCSS, JavaScript</p>
-              <a
-                href="https://satyaki07.github.io/Natours/"
-                class="live-project"
-                >View live</a
-              >
-              <a
-                href="https://github.com/satyaki07/Natours"
-                class="live-project"
-                >Source Code</a
-              >
+
+            <div>
+              <span class="skills__percentage">75%</span>
             </div>
+            <div class="skills__bar skills__react"></div>
           </div>
-          <div class="work-project">
-            <div class="work__img">
-              <img src="assets/img/project-3.png" alt="project-3" />
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="devicon-nodejs-plain-wordmark skills__icon"></i>
+              <span class="skills__name">NodeJS</span>
             </div>
-            <div class="work-tab">
-              <h1>TintNShade</h1>
-              <p class="techno_text">HTML5, CSS3, JavaScript, ReactJS</p>
-              <a href="tintnshade.netlify.app" class="live-project"
-                >View live</a
-              >
-              <a
-                href="https://github.com/satyaki07/color-generator"
-                class="live-project"
-                >Source Code</a
-              >
+
+            <div>
+              <span class="skills__percentage">65%</span>
             </div>
-          </div>
-          <div class="work-project">
-            <div class="work__img">
-              <img src="assets/img/project-4.png" alt="project-4" />
-            </div>
-            <div class="work-tab">
-              <h1>Stripe Submenu</h1>
-              <p class="techno_text">HTML5, CSS3, JavaScript, ReactJS</p>
-              <a href="http://stripesubmenu.netlify.app/" class="live-project"
-                >View live</a
-              >
-              <a
-                href="https://github.com/satyaki07/stripe-submenu"
-                class="live-project"
-                >Source Code</a
-              >
-            </div>
-          </div>
-          <div class="work-project">
-            <div class="work__img">
-              <img src="assets/img/project-5.png" alt="project-5" />
-            </div>
-            <div class="work-tab">
-              <h1>Lorem Ipsum Generator</h1>
-              <p class="techno_text">HTML5, CSS3, JavaScript, ReactJS</p>
-              <a
-                href="https://lorem-ipsum-gen.netlify.app/"
-                class="live-project"
-                >View live</a
-              >
-              <a
-                href="https://github.com/satyaki07/lorem-ipsum-generator"
-                class="live-project"
-                >Source Code</a
-              >
-            </div>
-          </div>
-          <div class="work-project">
-            <div class="work__img">
-              <img src="assets/img/project-6.png" alt="work-1" />
-            </div>
-            <div class="work-tab">
-              <h1>Forkify</h1>
-              <p class="techno_text">
-                HTML5, CSS3, JavaScript, NPM, Babel, Webpack
-              </p>
-              <a href="https://forkify-menu.netlify.app/" class="live-project"
-                >View live</a
-              >
-              <a
-                href="https://github.com/satyaki07/forkify"
-                class="live-project"
-                >Source Code</a
-              >
-            </div>
+            <div class="skills__bar skills__node"></div>
           </div>
         </div>
-      </section>
+        <img src="assets/img/work-1.jpg" alt="skills img" class="skills__img" />
+      </div>
+    </section>
 
-      <!-- CONTACT -->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact__details">
-          <div class="contact-detail">
-            <i class="bx bx-envelope bx-tada"></i>
-            <p class="mail__address">satyakibose98@gmail.com</p>
+    <!-- WORK -->
+    <section class="work section" id="work">
+      <h2 class="section-title">Work</h2>
+
+      <div class="work__container bd-grid">
+        <div class="work-project">
+          <div class="work__img">
+            <img src="assets/img/project-1.png" alt="project-1" />
           </div>
-          <div class="contact-detail">
-            <i class="bx bxs-phone bx-tada"></i>
-            <p class="phone__number">+91 9874683119</p>
+          <div class="work-tab">
+            <h1>Trillo</h1>
+
+            <p class="techno_text">HTML5, SCSS, Flexbox, JavaScript</p>
+            <a href="https://satyaki07.github.io/Trillo/" class="live-project">View live</a>
+            <a href="https://github.com/satyaki07/Trillo" class="live-project">Source Code</a>
           </div>
         </div>
-
-        <div class="contact__container bd-grid">
-          <form class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
-            <textarea
-              name=""
-              id=""
-              class="contact__input"
-              cols="0"
-              rows="10"
-              placeholder="Your Message"
-            ></textarea>
-
-            <input type="button " value="Send" class="contact__button button" />
-          </form>
+        <div class="work-project">
+          <div class="work__img">
+            <img src="assets/img/project-2.png" alt="project-2" />
+          </div>
+          <div class="work-tab">
+            <h1>Natours</h1>
+            <p class="techno_text">HTML5, SCSS, JavaScript</p>
+            <a href="https://satyaki07.github.io/Natours/" class="live-project">View live</a>
+            <a href="https://github.com/satyaki07/Natours" class="live-project">Source Code</a>
+          </div>
         </div>
-      </section>
-
-      <!-- FOOTER -->
-      <section class="footer">
-        <p class="footer__title"><span><</span>Satyaki<span>/></span></p>
-
-        <div class="footer__social">
-          <a
-            href="https://www.linkedin.com/in/satyaki07/"
-            class="footer__icon linkedin"
-            ><i class="bx bxl-linkedin-square"></i
-          ></a>
-          <a href="https://github.com/satyaki07" class="footer__icon github"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://twitter.com/satyaki_07" class="footer__icon twitter"
-            ><i class="bx bxl-twitter"></i
-          ></a>
+        <div class="work-project">
+          <div class="work__img">
+            <img src="assets/img/project-3.png" alt="project-3" />
+          </div>
+          <div class="work-tab">
+            <h1>TintNShade</h1>
+            <p class="techno_text">HTML5, CSS3, JavaScript, ReactJS</p>
+            <a href="tintnshade.netlify.app" class="live-project">View live</a>
+            <a href="https://github.com/satyaki07/color-generator" class="live-project">Source Code</a>
+          </div>
         </div>
-        <p>&#169; 2021 copyright all right reserved</p>
-      </section>
-    </main>
+        <div class="work-project">
+          <div class="work__img">
+            <img src="assets/img/project-4.png" alt="project-4" />
+          </div>
+          <div class="work-tab">
+            <h1>Stripe Submenu</h1>
+            <p class="techno_text">HTML5, CSS3, JavaScript, ReactJS</p>
+            <a href="http://stripesubmenu.netlify.app/" class="live-project">View live</a>
+            <a href="https://github.com/satyaki07/stripe-submenu" class="live-project">Source Code</a>
+          </div>
+        </div>
+        <div class="work-project">
+          <div class="work__img">
+            <img src="assets/img/project-5.png" alt="project-5" />
+          </div>
+          <div class="work-tab">
+            <h1>Lorem Ipsum Generator</h1>
+            <p class="techno_text">HTML5, CSS3, JavaScript, ReactJS</p>
+            <a href="https://lorem-ipsum-gen.netlify.app/" class="live-project">View live</a>
+            <a href="https://github.com/satyaki07/lorem-ipsum-generator" class="live-project">Source Code</a>
+          </div>
+        </div>
+        <div class="work-project">
+          <div class="work__img">
+            <img src="assets/img/project-6.png" alt="work-1" />
+          </div>
+          <div class="work-tab">
+            <h1>Forkify</h1>
+            <p class="techno_text">
+              HTML5, CSS3, JavaScript, NPM, Babel, Webpack
+            </p>
+            <a href="https://forkify-menu.netlify.app/" class="live-project">View live</a>
+            <a href="https://github.com/satyaki07/forkify" class="live-project">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- SCROLL REVEAL -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- MAIN JS -->
-    <script src="assets/js/main.js"></script>
-  </body>
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__details">
+        <div class="contact-detail">
+          <i class="bx bx-envelope bx-tada"></i>
+          <p class="mail__address">souravdutta2108@gmail.com</p>
+        </div>
+        <div class="contact-detail">
+          <i class="bx bxs-phone bx-tada"></i>
+          <p class="phone__number">+91 9874683119</p>
+        </div>
+      </div>
+
+      <div class="contact__container bd-grid">
+        <form class="contact__form">
+          <input type="text" placeholder="Name" class="contact__input" />
+          <input type="mail" placeholder="Email" class="contact__input" />
+          <textarea name="" id="" class="contact__input" cols="0" rows="10" placeholder="Your Message"></textarea>
+
+          <input type="button " value="Send" class="contact__button button" />
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <p class="footer__title"><span>
+          << /span>Sourav<span>/></span></p>
+
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/souravdutta2108/" class="footer__icon linkedin"><i
+            class="bx bxl-linkedin-square"></i></a>
+        <a href="https://github.com/souravdutta2108" class="footer__icon github"><i class="bx bxl-github"></i></a>
+        <a href="https://twitter.com/souravdutta2108" class="footer__icon twitter"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
+    </section>
+  </main>
+
+  <!-- SCROLL REVEAL -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- MAIN JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
